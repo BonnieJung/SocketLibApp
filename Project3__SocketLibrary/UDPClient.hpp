@@ -3,10 +3,8 @@
 #include "BaseSocket.hpp"
 
 class UDPClient : BaseSocket {
-public:
-
 	sockaddr_in serverAddress;
-	
+public:
 
 	UDPClient(unsigned short portParam = DEFAULT_PORT, std::string addr= DEFAULT_ADDRESS);
 	//send

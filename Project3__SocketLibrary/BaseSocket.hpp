@@ -12,15 +12,12 @@ std::string const TERMINATING_MESSAGE = "Terminating!!";
 int const MAX_CHARACTER = 256;
 
 class BaseSocket {
-public:
+protected:
 	// Create the UDP socket
 	SOCKET hSocket;
 	WSAData wsaData;//it should be here because WSAData will be removed in dtor 
 	unsigned short port;
-
-	//cf.only the server has port number!
-
-
+public:
 	~BaseSocket() {
 		// terminate. 
 		closesocket(hSocket);

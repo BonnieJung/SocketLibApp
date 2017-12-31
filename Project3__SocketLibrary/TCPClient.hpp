@@ -3,11 +3,8 @@
 #include "BaseSocket.hpp"
 
 class TCPClient : BaseSocket {
-public:
-
 	sockaddr_in serverAddress;
-
-
+public:
 	TCPClient(unsigned short portParam = DEFAULT_PORT, std::string addr = DEFAULT_ADDRESS);
 	//send
 	void Send(std::string msg);//you can replace with any type! for now, string.

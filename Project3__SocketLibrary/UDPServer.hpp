@@ -3,11 +3,10 @@
 
 
 class UDPServer : BaseSocket {
-public:
 	sockaddr clientAddress;
 	sockaddr_in  serverAddress;
 	socklen_t cbClientAddress = sizeof(clientAddress);
-	
+public:
 
 	UDPServer(unsigned short portParam = DEFAULT_PORT);
 	//send

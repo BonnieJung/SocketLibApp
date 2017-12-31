@@ -18,7 +18,7 @@ int main() {
 	}
 	cout << messageYouGot;
 
-	////could be either UDP or udp (WORKING UDP :-)
+	/**************(WORKING UDP :-)******************/
 	//UDPClient client = UDPClient();
 	//string messageYouGot = "Nothing";
 	//client.Send("hello!!!!!!!"); //NOTE!!!! send from client first. server waits to receive before sending

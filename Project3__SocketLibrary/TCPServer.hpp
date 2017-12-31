@@ -3,11 +3,11 @@
 
 
 class TCPServer : BaseSocket {
-public:
 	sockaddr clientAddress;
 	sockaddr_in  serverAddress;
 	socklen_t cbClientAddress = sizeof(clientAddress);
 	SOCKET hAccepted;
+public:
 
 	TCPServer(unsigned short portParam = DEFAULT_PORT, std::string addr = DEFAULT_ADDRESS);
 	//send
