@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project3__SocketLibrary", "Project3__SocketLibrary\Project3__SocketLibrary.vcxproj", "{BBE1E425-BAD7-47CA-BE79-7068FDC65E22}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project3__SocketClient", "Project3__SocketClient\Project3__SocketClient.vcxproj", "{1BF8B239-50A5-4778-A2E7-88766FF5B42A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project3__SocketServer", "Project3__SocketServer\Project3__SocketServer.vcxproj", "{7FC576A6-8CF5-47F7-B246-880CDA893521}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBE1E425-BAD7-47CA-BE79-7068FDC65E22}.Debug|x64.ActiveCfg = Debug|x64
+		{BBE1E425-BAD7-47CA-BE79-7068FDC65E22}.Debug|x64.Build.0 = Debug|x64
+		{BBE1E425-BAD7-47CA-BE79-7068FDC65E22}.Debug|x86.ActiveCfg = Debug|Win32
+		{BBE1E425-BAD7-47CA-BE79-7068FDC65E22}.Debug|x86.Build.0 = Debug|Win32
+		{BBE1E425-BAD7-47CA-BE79-7068FDC65E22}.Release|x64.ActiveCfg = Release|x64
+		{BBE1E425-BAD7-47CA-BE79-7068FDC65E22}.Release|x64.Build.0 = Release|x64
+		{BBE1E425-BAD7-47CA-BE79-7068FDC65E22}.Release|x86.ActiveCfg = Release|Win32
+		{BBE1E425-BAD7-47CA-BE79-7068FDC65E22}.Release|x86.Build.0 = Release|Win32
+		{1BF8B239-50A5-4778-A2E7-88766FF5B42A}.Debug|x64.ActiveCfg = Debug|x64
+		{1BF8B239-50A5-4778-A2E7-88766FF5B42A}.Debug|x64.Build.0 = Debug|x64
+		{1BF8B239-50A5-4778-A2E7-88766FF5B42A}.Debug|x86.ActiveCfg = Debug|Win32
+		{1BF8B239-50A5-4778-A2E7-88766FF5B42A}.Debug|x86.Build.0 = Debug|Win32
+		{1BF8B239-50A5-4778-A2E7-88766FF5B42A}.Release|x64.ActiveCfg = Release|x64
+		{1BF8B239-50A5-4778-A2E7-88766FF5B42A}.Release|x64.Build.0 = Release|x64
+		{1BF8B239-50A5-4778-A2E7-88766FF5B42A}.Release|x86.ActiveCfg = Release|Win32
+		{1BF8B239-50A5-4778-A2E7-88766FF5B42A}.Release|x86.Build.0 = Release|Win32
+		{7FC576A6-8CF5-47F7-B246-880CDA893521}.Debug|x64.ActiveCfg = Debug|x64
+		{7FC576A6-8CF5-47F7-B246-880CDA893521}.Debug|x64.Build.0 = Debug|x64
+		{7FC576A6-8CF5-47F7-B246-880CDA893521}.Debug|x86.ActiveCfg = Debug|Win32
+		{7FC576A6-8CF5-47F7-B246-880CDA893521}.Debug|x86.Build.0 = Debug|Win32
+		{7FC576A6-8CF5-47F7-B246-880CDA893521}.Release|x64.ActiveCfg = Release|x64
+		{7FC576A6-8CF5-47F7-B246-880CDA893521}.Release|x64.Build.0 = Release|x64
+		{7FC576A6-8CF5-47F7-B246-880CDA893521}.Release|x86.ActiveCfg = Release|Win32
+		{7FC576A6-8CF5-47F7-B246-880CDA893521}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16B842E1-653E-4140-BF56-A120B11A5980}
+	EndGlobalSection
+EndGlobal
